@@ -29,7 +29,8 @@
 
   /* Basic Element Styling */
   header {
-    background: #444;
+    /*background: #444;*/
+	background-image: url('https://borisisgreat.github.io/ifen/IFENBG2.png');
     color: #ccc;
     padding: 1.5em;
   }

@@ -34,6 +34,11 @@
     color: #ccc;
     padding: 1.5em;
   }
+	
+	.ym-hlist {
+    background-image: linear-gradient(to right, #20164D, #00B2BB, #EA528E, #EF7900, #55B578, #F2B532, #3257A3, #72538E, #AE9783);
+}
+	
   header h1 {
     background: transparent;
     color: #fff;

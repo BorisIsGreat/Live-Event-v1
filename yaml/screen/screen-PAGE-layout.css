@@ -132,6 +132,7 @@
 
   nav .ym-hlist ul {
     padding-right: 10px;
+
   }
 
   .ym-searchform {
@@ -166,6 +167,7 @@
   nav .ym-hlist ul {
     padding-left: 10px;
     padding-right: 10px;
+
   }
 
   /* Linearisation for Grid- and Column-Module, based on CSS class .linearize-level-2 */
@@ -192,6 +194,7 @@
     float: none;
     width: auto;
     text-align: left;
+
   }
 
   .ym-searchform input[type="search"] {

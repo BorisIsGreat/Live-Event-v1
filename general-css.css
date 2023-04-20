@@ -60,33 +60,30 @@
         height: 100%;
       }
 /* CDP book frame */
-.container {
-  width: 100%;
-  overflow: hidden;
-}
+ .container {
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
-.box {
-  width: 50%;
-  box-sizing: border-box;
-  padding: 20px;
-}
+    .box {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 20px;
+    }
 
-.box-left {
-  float: left;
-}
+    .box img {
+        max-width: 100%;
+        height: auto;
+    }
 
-.box-right {
-  float: right;
-}
-
-.box img {
-  max-width: 100%;
-  height: auto;
-}
-@media screen and (min-width: 768px) {
+    @media screen and (min-width: 768px) {
         .box {
-            width: 50%;
-            float: left;
+            width: calc(50% - 20px);
+            margin: 0 10px 20px 10px;
+            float: none;
         }
         .box-left {
             float: left;

@@ -82,16 +82,4 @@
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     }
 
-    @media screen and (min-width: 768px) {
-        .box {
-            width: calc(50% - 20px);
-            margin: 0 10px 20px 10px;
-            float: none;
-        }
-        .box-left {
-            float: left;
-        }
-        .box-right {
-            float: right;
-        }
-    }
+    
